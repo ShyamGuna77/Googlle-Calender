@@ -1,7 +1,9 @@
-## A simple Google Calender Project 
+##  Google Calender 
 
 ### Built With
 - React 
 - Typescript
-- Tailwind and Normal Css
+- prisma
+
+
 
