@@ -1,16 +1,11 @@
-import Calender from "./components/Calender"
+import { Calendar } from "./components/Calender";
+import { EventsProvider } from "./context/Events";
+import "./styles.css";
 
-
-
-function App() {
-  
-
+export default function App() {
   return (
-    <>
-    <Calender />
-    </>
-    
-  )
+    <EventsProvider>
+      <Calendar />
+    </EventsProvider>
+  );
 }
-
-export default App
